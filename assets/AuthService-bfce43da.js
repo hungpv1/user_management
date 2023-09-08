@@ -1,0 +1,1 @@
+async function a(t,o){try{const r={status:!0,data:{id:1,username:"test"}};if(r.status)return t.dispatch("login",r.data),!0}catch{throw new Error("Login failed")}}async function e(t){try{return t.dispatch("logout"),!0}catch{throw new Error("Login failed")}}export{a,e as l};
